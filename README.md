@@ -48,6 +48,24 @@ One can fairly argue that the company should discontinue selling `Tables`.
 As a decision maker, to increase company's sales, one can procure more stock of telephones, fax machines and other similar products to cater to the huge demand.
 They can also start an advertising campaign to inform existing and potential customers that these products are popular.
 
+
+## Problem 2: Customer Identification
+This problem has two goals:-
+1. To find out TOP 10 Customers by Profit Generated.
+2. To find out Customers who have no order details.
+
+### Tables: 
+The tables that are required for solving this problem are as follows:
+
+- 'cust_dimen'
+- 'market_fact_full'
+
+### Reports:
+- [Top_10_Customers_by_profit_generated]
+
+### Summary:
+Top Customer is `Emily Phan` who generated a Profit of `$28664`
+
 ** Work on the project is still in progress
 
 
