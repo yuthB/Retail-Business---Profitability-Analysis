@@ -1,23 +1,52 @@
-# Retail Business - Profitability Analysis
-## Problem
+# Retail Business - Analysis
+For the purpose of better understanding I have divided the problem in two parts. Problem 1 will deal with Profitability Analysis and Problem 2 will deal with identifying Profitable Customers.
+
+## Problem 1: Profitability Analysis
 
 Identify the sustainable (profitable) product categories so that the growth team can capitalise on them to increase sales. The data related to the problem can be accessed [here]. [This] image contains ERD for the schema.
 
-## Metrics
+### Metrics
 
 Some of the metrics that can be used for performing the profitability analysis are as follows:
 
 - Profits per product category
 - Profits per product subcategory
 - Average profit per order
+- Average_Order_Value
 - Average profit percentage per order
 
-## Tables
+Determining the average profit per order helps in estimating the maximum cost that company should incur for each order. This will help ensure that profits are maximised after the required amount of money is spent on delivering each order to the relevant customer.
+
+As a decision maker, to increase company's sales, one can procure more stock of telephones, fax machines and other similar products to cater to the huge demand.
+They can also start an advertising campaign to inform existing and potential customers that these products are popular.
+### Tables
 The tables that I will be using to solve this problem are as follows:
 
 - 'market_fact_full'
 - 'prod_dimen'
 - 'orders_dimen'
+
+### Reports:
+- [Profits per product category]
+- [Profits per product subcategory]
+- [Average profit per order]
+- [Average profit percentage per order]
+
+### Summary:
+We find that Category `Technology` performs better than `Office Supplies`. `Furniture` ranks lowest in generating profits.
+
+We also find that Sub-categories `Tables` and `Bookcases` in `Furniture` Category and Sub-categories `Scissors, Rulers and Trimmers` and `Rubber Bands` in `Office Supplies` Category are loss-making Sub-categories. Whereas, `Telephones an Communication` and `Office Machines` from `Technology` Category and `Binders and Binder Accessories` from `Office Suppies` Category are the top profit-making Sub-categories.
+
+Category `Furniture` with Average Profit Per Order of ~$75 ranks the lowest and `Technology` being the highest with Average Profit Per Order of $417.
+Though, Average Order Value(AOV) of `Furniture` Category is the highest but low profits produce Average Profit Percentage of only 2%.
+Category `Office Supplies` as well as `Technology` give a good Average profit percentage of 14% and 15% respectively.
+
+Sub-category wise `Labels` from `Office Supplies` top the Average Profit Percentage list (35%).
+
+One can fairly argue that the company should discontinue selling `Tables`.
+
+As a decision maker, to increase company's sales, one can procure more stock of telephones, fax machines and other similar products to cater to the huge demand.
+They can also start an advertising campaign to inform existing and potential customers that these products are popular.
 
 ** Work on the project is still in progress
 
