@@ -87,3 +87,9 @@ There are **276** fraud customers. All these customers are from **Mysore**.
 
 [here]: <https://github.com/yuthB/Retail-Business---Profitability-Analysis/blob/main/Market_Star_Schema.sql>
 [This]:<https://github.com/yuthB/Retail-Business---Profitability-Analysis/blob/main/Market_Schema_ERD.png>
+[Profits per product category]:<https://github.com/yuthB/Retail-Business---Profitability-Analysis/blob/main/Profits_Per_Product_Category.csv>
+[Profits per product subcategory]:<https://github.com/yuthB/Retail-Business---Profitability-Analysis/blob/main/Profits_Per_Product_Sub_Category.csv>
+[Average profit per order]:<https://github.com/yuthB/Retail-Business---Profitability-Analysis/blob/main/Avg_Profit_Percentage.csv>
+[Average profit percentage per order]:<https://github.com/yuthB/Retail-Business---Profitability-Analysis/blob/main/Avg_Profit_Percentage_Sub_Category.csv>
+[Top_10_Customers_by_profit_generated]:<https://github.com/yuthB/Retail-Business---Profitability-Analysis/blob/main/Top_10_Customers_by_profit_generated.csv>
+[Fraud Customers]:<https://github.com/yuthB/Retail-Business---Profitability-Analysis/blob/main/Fraud_Customers_Identified.csv>
