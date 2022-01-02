@@ -1,0 +1,11 @@
+cust_id,RNK,Customer_Name,Profit,Customer_City,Customer_State,Sales
+Cust_1151,1,"EMILY PHAN",28663.71,Hyderabad,Telangana,97011.19
+Cust_63,2,"GRANT CARROLL",20877.44,Mumbai,Maharashtra,54368.91
+Cust_1571,3,"KAREN CARLISLE",19439.52,Chennai,"Tamil Nadu",47445.57
+Cust_1421,4,"LIZ MACKENDRICK",18960.63,Hyderabad,Telangana,67285.13
+Cust_937,5,"JOHN STEVENSON",18849.93,Pune,Maharashtra,48660.87
+Cust_1799,6,"RAYMOND BOOK",18760.59,Bangalore,Karnataka,70426.59
+Cust_934,7,"LOGAN HAUSHALTER",17044.22,Pune,Maharashtra,45000.49
+Cust_1748,8,"CLYTIE KELTY",16080.57,Bangalore,Karnataka,46147.22
+Cust_1307,9,"ANDY REITER",15082.66,Kanyakumari,"Tamil Nadu",35781.38
+Cust_1310,10,"NICK CREBASSA",14712.95,Kanyakumari,"Tamil Nadu",45458.41
