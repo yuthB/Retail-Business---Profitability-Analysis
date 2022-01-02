@@ -1,5 +1,5 @@
 # Retail Business - Analysis
-For the purpose of better understanding I have divided the problem in two parts. Problem 1 will deal with Profitability Analysis and Problem 2 will deal with identifying Profitable Customers.
+For the purpose of better understanding I have divided the problem in three parts. Problem 1 will deal with Profitability Analysis, Problem 2 will deal with identifying Profitable Customers and Problem 3 will deal with identifying fraud Customers.
 
 ## Problem 1: Profitability Analysis
 
@@ -52,7 +52,7 @@ They can also start an advertising campaign to inform existing and potential cus
 ## Problem 2: Customer Identification
 This problem has two goals:-
 1. To find out TOP 10 Customers by Profit Generated.
-2. To find out Customers who have no order details.
+2. To find out Customers who have not ordered yet.
 
 ### Tables: 
 The tables that are required for solving this problem are as follows:
@@ -64,7 +64,23 @@ The tables that are required for solving this problem are as follows:
 - [Top_10_Customers_by_profit_generated]
 
 ### Summary:
-Top Customer is `Emily Phan` who generated a Profit of `$28664`
+Top Customer is `Emily Phan` who generated a Profit of `$28,664`.
+There are total **1832** customers, out of which there are no customers who have not ordered yet.
+
+## Problem 3: Fraud Customers Identification
+The company has come up with an attractive offer for new customers: each new customer who signs up can avail a discount of 75% on their first order with a maximum cap of ₹500. An unexpectedly large number of customers are signing up on a daily basis. What could be the reason for this?
+
+### Tables: 
+The tables that are required for solving this problem are as follows:
+
+- 'cust_dimen'
+- 'market_fact_full'
+
+### Reports:
+- [Fraud Customers]
+
+### Summary:
+There are **276** fraud customers. All these customers are from **Mysore**.
 
 ** Work on the project is still in progress
 
